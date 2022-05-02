@@ -2,45 +2,45 @@
   --primary-color: hsl(270, 9%, 17%);
 }
 
-navbar {
+.nav {
   text-transform: uppercase;
   font-family: "Karla";
   font-weight: 400;
 }
 
-navbar a,
+.nav a,
 li a {
   color: var(--primary-color) !important;
 }
 
-navbar .brand-name {
+.nav .brand-name {
   font-family: "Krona one";
 }
 
-navbar .brand-details {
+.nav .brand-details {
   margin-left: auto;
   font-size: 14px;
 }
 
-navbar li .hww {
+.nav li .hww {
   opacity: 0.8;
 }
-navbar li .hww:hover {
+.nav li .hww:hover {
   opacity: 1;
   font-weight: 600;
 }
 
-navbar .nav-margin {
+.nav .nav-margin {
   margin: 0 70px;
 }
 
-navbar li .view-plans {
+.nav li .view-plans {
   border: 2px solid var(--primary-color);
   border-radius: 2px;
   font-weight: 400;
   opacity: 1;
 }
-navbar li .view-plans:hover {
+.nav li .view-plans:hover {
   color: white !important;
   background-color: var(--primary-color);
   transition: all 200ms ease-in-out;
@@ -49,8 +49,11 @@ navbar li .view-plans:hover {
 header {
   margin-top: 3.5rem;
   background-color: var(--primary-color);
+  padding: 250px 150px 290px;
+}
+
+section {
   color: white;
-  padding: 58px 50px;
 }
 
 h1.heading {
@@ -89,4 +92,37 @@ button:hover {
   color: var(--primary-color);
   background-color: white;
   transition: all 200ms ease-in-out;
+}
+
+.row {
+  margin-top: -470px;
+}
+
+.intro-left-svg {
+  margin-top: -750px;
+}
+
+.intro-right-svg {
+  margin-left: 710px;
+  margin-top: -1135px;
+}
+
+aside {
+  font-family: "DM Serif Display", serif;
+}
+
+.aside-hr:not([size]) {
+  height: 1px;
+}
+
+h2 {
+  font-size: 65px;
+}
+
+.i-div {
+  display: flex;
+}
+
+h3 {
+  font-size: 20px;
 }
