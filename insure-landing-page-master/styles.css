@@ -200,9 +200,18 @@ h4 {
   font-family: "Karla";
   font-size: 12px;
   font-weight: 700;
-  margin-top: 20px;
+  margin-top: 50px;
+}
+
+.f-heading {
+  opacity: 0.5;
+  margin-bottom: 27px;
 }
 
 .f-div2 {
   margin-right: 200px;
+}
+
+p:hover {
+  text-decoration: underline;
 }
