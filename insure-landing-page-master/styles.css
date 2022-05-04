@@ -172,16 +172,21 @@ footer {
 h4 {
   text-transform: uppercase;
   font-family: "Krona one";
+  font-size: 16px;
+  margin: 33px 0 30px;
 }
 
 .socials {
   float: right;
 }
 
-/* .socials-hover:hover {
+.socials-hover {
+  height: 16px;
+}
+
+.socials-hover:hover {
   color: var(--primary-color);
-  opacity: 1;
-} */
+}
 
 .footer-hr {
   margin-bottom: 0;
@@ -214,4 +219,8 @@ h4 {
 
 p:hover {
   text-decoration: underline;
+}
+
+.f-heading:hover {
+  text-decoration: none;
 }
