@@ -189,12 +189,12 @@ h4 {
   float: right;
 }
 
-.socials-hover {
+.social {
   height: 16px;
 }
 
-.socials-hover:hover {
-  color: var(--primary-color);
+.social:hover {
+  background-color: var(--primary-color);
 }
 
 .footer-hr {
