@@ -165,7 +165,12 @@ aside {
 .aside-btn {
   font-size: 14px;
   float: right;
-  margin-top: -65px;
+  margin-top: -75px;
+}
+
+.how-we-work-svg {
+  margin-left: 810px;
+  margin-top: -515px;
 }
 
 footer {
