@@ -100,12 +100,14 @@ button:hover {
 }
 
 .intro-left-svg {
-  margin-top: -750px;
+  margin-top: -330px;
+  height: 550px;
 }
 
 .intro-right-svg {
-  margin-left: 710px;
-  margin-top: -1135px;
+  margin-left: 980px;
+  margin-top: -1480px;
+  height: 500px;
 }
 
 h2 {
@@ -143,14 +145,15 @@ small {
   opacity: 0.8;
 }
 
-.find-out-more-box {
+aside {
   background-color: var(--primary-color);
   color: white;
   margin: 120px 0;
-  padding: 35px 45px;
+  padding: 70px 0;
 }
 
 .find-out-more {
+  padding: 0 70px;
   font-family: var(--font-family);
   font-size: 45px;
 }
@@ -159,9 +162,10 @@ small {
   margin-top: -23px;
 }
 
-.how-we-work-svg {
-  width: -10 !important;
-  margin: -55px;
+.aside-btn {
+  font-size: 14px;
+  float: right;
+  margin-top: -65px;
 }
 
 footer {
